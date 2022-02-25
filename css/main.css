@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+body{
+    margin: 0;
+}
+.HeroBanner .Logo{
+    padding-right: 60px;
+    
+}
+
+@media screen and (min-width:1441px) {
+    .HeroBanner .Logo img{
+        padding-right: 50px;
+        
+    }
+    .HeroBanner .Logo span span{
+   
+        margin-right: 30px;
+    }
+    .Content  .MainImage input{
+        width: 500px;
+        height: 500px;
+    }
+    .Content .Thumbnail input{
+        width: 88px;
+        height: 88px;
+    }
+    .Content .Thumbnail {
+        width: 500px;
+    }
+    .Content .Description h1{
+        font-family: "Kumbh Sans";
+        font-size: 50px;
+        
+    }
+    .Content .Description .PriceBox .Price{
+        font-size: 40px;
+    }
+    .Content .Description .ButtonsBox .ItemCount{
+        width: 30%;  
+    }
+    .Content .Description .ButtonsBox .Add button{
+        padding: 20px 100px;
+    }
+    .basketContainer{
+        margin: 4% 73%;
+        width: 450px;
+        height: 300px;        
+    }
+    .basketContainer .filled #name{
+        font-size: 18px;
+    }
+    .basketContainer .filled span{
+        font-size: 20px;
+    }
+    .basketContainer .filled img{
+        width: 75px;
+        height: 75px;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:1440px) {
+ 
+    .HeroBanner .Logo img{
+        padding-right: 5px;
+    }
+    .HeroBanner .Logo span span{
+        margin-right: 5px;
+    }
+    .Content  .MainImage input{
+        width: 350px;
+        height: 350px;
+    }
+    .Content .Thumbnail input{
+        width: 68px;
+        height: 68px;
+    }
+    .Content .Thumbnail {
+        width: 350px;
+    }
+    .Content .Description .ButtonsBox .ItemCount{
+        width: 15%;  
+    }
+    .Content .Description .ButtonsBox .Add button{
+        padding: 10px 50px;
+    }
+    .basketContainer{
+        margin-top: 6%;
+        margin-left: 65%;
+        width: 350px;
+        height: 200px;      
+        
+    }
+    .basketContainer .filled #name{
+        font-size: 13px;
+    }
+    .basketContainer .filled span{
+        font-size: 15px;
+    }
+    .basketContainer .filled img{
+        width: 50px;
+        height: 50px;
+    }
+
+    
+
+}
+.HeroBanner{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(220, 14%, 75%);
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    color: hsl(220, 14%, 75%);
+   
+
+}
+.HeroBanner .AvatarCart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    
+
+}
+
+.HeroBanner .Logo span span:hover{
+    
+    color: black;
+    cursor: pointer;
+    border-bottom: 5px solid orange;
+    padding-bottom: 5.2%;
+}
+.HeroBanner .AvatarCart .Avatar{
+    
+    transform: scale(0.5);
+}
+
+.Content{
+  
+    display: flex;
+    width: 65%;
+    margin: auto;
+    justify-content:space-between;
+    margin-top: 5%;
+
+}
+.Lightbox{
+    display: none;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsla(0, 0%, 0%,0.75);
+    flex-wrap: wrap;
+    
+    flex-direction: row;
+    position: fixed;
+    z-index: 999;
+    
+}
+
+.Lightbox  #lightBoxImg{
+    width: 500px;
+    height: 500px;
+    cursor: auto;
+
+    border-radius: 15px;
+}
+.Lightbox .iconContainer button{ 
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.Lightbox #previous{
+    position: absolute;
+    left: 35%;
+    
+    
+}
+.Lightbox #next{
+    position: absolute;
+    right: 36.5%;
+    
+}
+.Lightbox #close{
+    align-self: flex-start;
+    cursor: pointer;
+    transform: scale(1.5);
+    margin-top: 10%;
+    background-color: transparent;
+    border: none;
+    
+}
+
+
+.Content .MainImage  input{
+    border-radius: 15px;
+}
+.Content .Thumbnail{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+
+  
+}
+.Content .Thumbnail input{
+    
+    border-radius: 15px;
+
+}
+.Content .Thumbnail button{
+    border: none;
+    background-color: transparent;
+    width: 88px;
+    height: 88px;
+
+}
+.Content .Thumbnail input:hover{
+    opacity: 0.5;
+
+}
+.Content .Thumbnail input:focus {
+    opacity: 0.5;
+    border-radius: 15px;
+    border: hsl(26, 100%, 55%) 3px solid;
+}
+.Content .Description{
+    width: 45%;
+
+}
+.Content .Description h1{
+    font-family: "Kumbh Sans";
+    
+}
+.Content .Description span{
+    font-family: "Kumbh Sans";
+    color: hsl(219, 9%, 45%);
+    font-size: 20px;
+    font-weight: 400;
+}
+.Content .Description h2{
+    font-family: "Kumbh Sans";
+    color: hsl(26, 100%, 55%);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.Content .Description .PriceBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+  
+    margin-top: 10%;
+    margin-bottom: 1%;
+
+}
+.Content .Description .PriceBox .Price{
+    
+    display: flex;
+    color: black;
+    font-family: "Kumbh Sans";
+    
+    font-weight: 700;
+}
+
+.Content .Description .PriceBox .Reduction{
+    color: hsl(26, 100%, 55%);
+    font-size: 20px;
+    
+    font-weight: 700;
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 5px;
+    padding: 5px;
+}
+.Content .Description  .OldPrice{
+    color: hsl(220, 14%, 75%);
+    text-decoration: line-through ;
+    font-weight: 700;
+}
+.Content .Description .ButtonsBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-top: 10%;
+}
+.Content .Description .ButtonsBox .ItemCount{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:hsl(230, 60%, 92%);
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.Content .Description .ButtonsBox .ItemCount #Amount{
+    font-family: "Kumbh Sans";
+    color: black;
+    font-weight: 700;
+}   
+
+.Content .Description .ButtonsBox .Add button{
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 10px;
+    border: none;
+
+}
+.Content .Description .ButtonsBox .Add button:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.Content .Description .ButtonsBox .Add span{
+    color: white;
+    font-weight: 700;  
+    padding-left: 10px;  
+}
+
+.basketContainer{
+    position: absolute;
+    display: none;
+
+    border-radius: 15px;
+    z-index: 1000;
+    background: white;
+
+    box-shadow: 5px 5px 5px 5px hsla(230, 60%, 92%,0.75);
+
+}
+
+.basketContainer .Cart{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    
+}
+.basketContainer .Cart span{
+
+    position: absolute;
+    align-self: center;
+    left: 15px;
+    font-size: 20px;
+    font-family: "Kumbh Sans";
+    font-weight: 700;
+    color: black;
+}
+
+.basketContainer .empty{
+    display: flex;
+    justify-self: center;
+    font-family: "Kumbh Sans";
+    font-weight: 700;
+    color: hsl(219, 9%, 45%);  
+    font-size: 20px;
+}
+.basketContainer .filled{
+    display: none;
+    position: absolute;
+    margin: 20% 10%;
+    width: 100%;
+    height: 100%;
+}
+.basketContainer .filled img{
+    border-radius: 5px;
+ 
+}
+.basketContainer .filled span{
+    color: hsl(219, 9%, 45%);  
+}
+.basketContainer .filled input{
+    position: absolute;
+    transform: scale(1.2);
+    top: 12%;
+    left: 70%;
+}
+.basketContainer .filled button{
+    height: 40px;
+    position: absolute;
+    bottom: 45%;
+    width: 75%;
+    left: 0%;
+    border-radius: 10px;
+    background: hsl(26, 100%, 55%);
+    border: none;
+    cursor: pointer;
+}
+.basketContainer .filled button span{
+
+    font-family: "Kumbh Sans";
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.basketContainer .filled #name{
+    position: absolute;
+    margin: 0 5%;
+    font-family: "Kumbh Sans";
+ 
+}
+.basketContainer .filled #originalprice{
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    font-family: "Kumbh Sans";
+    word-spacing: 3px;
+}
+.basketContainer .filled #amount{
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    font-family: "Kumbh Sans";
+}
+.basketContainer .filled #price{
+    position: absolute;
+    top:10%;
+    left: 44%;
+    font-family: "Kumbh Sans";
+    color: black;
+    font-weight: 700;
+}
+.HeroBanner .AvatarCart .Cart{
+    display: grid;
+    align-items: center;
+    width: 25px;
+    height: 30px;
+    justify-items: flex-start;
+    
+}
+.HeroBanner .AvatarCart .Cart .Notification{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 13px;
+    width: 18px;
+    z-index: 10000;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 30%;
+    font-size: 8px;
+    justify-self: flex-end;
+    align-self: flex-start;
+}
+.HeroBanner .AvatarCart .Cart .Notification span{
+    font-size: 10px;
+    font-family:  "Kumbh Sans";
+    font-weight: 700;
+}
