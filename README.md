@@ -9,3 +9,5 @@ Les assets sont fournis mais pas le code.
 Cette page est une maquette qui m'a permis d'apprendre les fondamentaux d'HTML et CSS, ainsi que l'utilisation de JS.
 
 
+
+https://eddybess.github.io/E-CommerceProductPage/
