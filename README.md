@@ -1,13 +1,8 @@
 # Frontend Mentor - E-commerce product page
 
 
+This website is a E-commerce product page. The design is provided by FrontEndMentor.com
 
-Frontend Mentor est un site fournissant des maquettes de site web , qu'il faut reproduire.
-
-Les assets sont fournis mais pas le code.
-
-Cette page est une maquette qui m'a permis d'apprendre les fondamentaux d'HTML et CSS, ainsi que l'utilisation de JS.
-
-
+This is my first website and i learned the basics of HTML and CSS and JS by working on this project.
 
 https://eddybess.github.io/E-CommerceProductPage/
